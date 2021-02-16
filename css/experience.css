@@ -1,0 +1,24 @@
+/* ---------- Circles and Aside Menu ---------- */
+
+#experience-circle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+}
+
+#about-circle,
+#lounger-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid rgb(115, 115, 115);
+}
+
+aside li:nth-of-type(3) a {
+  color: #fff;
+}
+
+aside li:first-of-type a,
+aside li:nth-of-type(2) a {
+  color: var(--normal-font-color);
+}

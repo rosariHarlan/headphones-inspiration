@@ -1,0 +1,133 @@
+/* ---------- Circles and Aside Menu ---------- */
+
+#inspiration-circle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+}
+
+#about-circle,
+#lounger-circle,
+#experience-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid rgb(115, 115, 115);
+}
+
+aside li:nth-of-type(4) a {
+  color: #fff;
+}
+
+aside li:first-of-type a,
+aside li:nth-of-type(2) a,
+aside li:nth-of-type(3) a {
+  color: var(--normal-font-color);
+}
+
+/* ---------- Video ---------- */
+
+#inspiration {
+  position: absolute;
+}
+
+video {
+  position: absolute;
+  left: 22vw;
+  bottom: 25vh;
+  z-index: -1;
+}
+
+/* ---------- Inspiration First Section ---------- */
+
+#inspiration h4 {
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+#inspiration h3 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+#buttons {
+  color: var(--normal-font-color);
+}
+
+#buttons ul {
+  display: flex;
+}
+
+#buttons li {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  margin-right: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+#inspiration-content-1 {
+  position: relative;
+  left: 22vw;
+  top: 25vh;
+}
+
+/* ---------- Images ---------- */
+
+.inspiration-images {
+  width: 30vw;
+  object-fit: cover;
+}
+
+.inspiration-images img {
+  width: 100%;
+}
+
+/* ---------- Sound Section ---------- */
+
+#sound {
+  position: absolute;
+  left: 22vw;
+  top: 70vw;
+}
+
+#sound-alchemy,
+#sound-architecture {
+  display: flex;
+  gap: 2em;
+}
+
+.inspiration-content-2 {
+  width: 50%;
+  margin-top: 10rem;
+}
+
+.inspiration-content-2 h4,
+.inspiration-content-2 h3 {
+  padding-bottom: 1rem;
+}
+
+.inspiration-content-2 p {
+  line-height: 1.7;
+}
+
+#sound-alchemy p {
+  width: 70%;
+}
+
+#sound-architecture {
+  position: relative;
+  right: 11.2vw;
+}
+
+#sound-architecture p {
+  width: 75%;
+}
+
+#sound-architecture h4,
+#sound-architecture h3,
+#sound-architecture p {
+  position: relative;
+  left: 11vw;
+}

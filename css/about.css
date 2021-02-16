@@ -1,0 +1,51 @@
+#about {
+  position: absolute;
+}
+
+#about p {
+  position: relative;
+  color: var(--headline-color);
+  font-size: 1.5em;
+  width: 20%;
+  margin: 0 auto;
+  bottom: 25rem;
+}
+
+#about img {
+  position: relative;
+  width: 100%;
+  bottom: 20rem;
+  z-index: -1;
+}
+
+/* ---------- Design Alchemy ---------- */
+
+#alchemy {
+  position: relative;
+  display: flex;
+  gap: 5rem;
+  top: 50rem;
+  margin-left: 10rem;
+}
+
+#alchemy-img {
+  width: 70vw;
+}
+
+#alchemy img {
+  width: 100%;
+}
+
+#alchemy h3 {
+  color: var(--headline-color);
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  margin-top: 4rem;
+  font-size: 2em;
+}
+
+#alchemy p {
+  color: var(--normal-font-color);
+  width: 70%;
+  line-height: 2;
+}
